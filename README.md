@@ -19,6 +19,7 @@ Feature Extraction:
 3. TF-IGM Vectorizer based on this paper https://doi.org/10.1016/j.eswa.2016.09.009 by Chen, Kewen, et.al.,
 
 Use config.json to set the configurations:
+```
 {
     "maxlen" : [maximum sentence length],
     "model_type" : ["ML" or "FCNN" or "BILSTM" or "CNN"],
@@ -29,7 +30,9 @@ Use config.json to set the configurations:
     "train_file" : [csv file that contains training data with 2 columns "text" and "annotations"],
     "test_file" : [csv file that contains training data with 2 columns "text" and "annotations"]
 }
-
+```
 
 How to run the code:
+```
 python main.py
+```
