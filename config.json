@@ -1,0 +1,10 @@
+{
+    "maxlen" : 100,
+    "model_type" : "ML",
+    "batch_size" : 128,
+    "epochs" : 4000,
+    "vectorizer" : "tfidf",
+    "stopwords_file" : "./data/stopwords.txt",
+    "train_file" : "./data/train_EOR_delim.csv",
+    "test_file" : "./data/test_EOR_delim.csv"
+}
