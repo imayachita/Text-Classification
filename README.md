@@ -1,7 +1,7 @@
 # Text-Classification
 
 Text Classification with various Machine Learning and Deep Learning architectures: <br>
-Written in ```Keras 2.2.4```
+Written in ```Keras 2.2.4``` <br>
 ML: <br>
 1. Logistic Regression
 2. SVM
