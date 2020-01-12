@@ -1,24 +1,32 @@
 # Text-Classification
 
-Text Classification with Machine Learning and Deep Learning:
-ML:
+Text Classification with various Machine Learning and Deep Learning architectures: <br>
+ML: <br>
 1. Logistic Regression
 2. SVM
 3. Naive Bayes Classifier
 4. Random Forest Classifier
 5. Xtreme Gradient Boost Classifier
 
-DL:
+DL: <br>
 1. FCNN
 2. CNN
 3. BILSTM
 
-Feature Extraction:
+Feature Extraction: <br>
 1. Count Vectorizer
 2. TF-IDF Vectorizer
 3. TF-IGM Vectorizer based on this paper https://doi.org/10.1016/j.eswa.2016.09.009 by Chen, Kewen, et.al.,
 
-Use config.json to set the configurations:
+
+# Setup
+The code is written in Python 3.6
+To install the required packages:
+```
+pip install -r requirements.txt
+```
+
+Use ```config.json``` to set the configurations:
 ```
 {
     "maxlen" : [maximum sentence length],
