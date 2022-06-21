@@ -1,6 +1,6 @@
 nltk==3.3
 Keras==2.2.4
-numpy==1.17.2
+numpy==1.22.0
 pandas==0.25.1
 gensim==3.8.0
 xgboost==0.90
